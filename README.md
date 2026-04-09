@@ -28,7 +28,7 @@ This project was built to understand API integration and how to display real-tim
 - Weather data is fetched using OpenWeather API
 
 ## Usage
-
+https://ashlybenny.github.io/Skycast/
 1. Enter a city name  
 2. Click "Search" or press Enter  
 3. View current weather and forecast  
