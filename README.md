@@ -1,4 +1,4 @@
-  # SkyCast Weather App
+  # SkyCast - Weather Web Application
 
 A simple and clean weather application that allows users to search for cities in India and view current weather conditions along with a 5-day forecast.
 
