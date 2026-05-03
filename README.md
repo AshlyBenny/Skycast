@@ -1,37 +1,86 @@
-  # SkyCast - Weather Web Application
+ #  SkyCast — Weather Web Application
 
-A simple and clean weather application that allows users to search for cities in India and view current weather conditions along with a 5-day forecast.
+A clean and minimal weather app that fetches real-time weather data and forecasts using the OpenWeather API.
+
+> **[ Try it Live](https://ashlybenny.github.io/Skycast/)**
+
+---
 
 ##  Features
 
-- Search weather by city (India)
-- Displays temperature and weather condition
-- Shows feels-like temperature, humidity, and wind speed
-- 5-day forecast with daily overview
-- Minimal and clean user interface
+-  Search weather by city name
+-  Displays current temperature and weather condition
+-  Shows feels-like temperature, humidity, and wind speed
+-  5-day weather forecast with daily overview
+-  Real-time data via OpenWeather API
+-  Responsive design — works on mobile and desktop
+
+---
 
 ##  Technologies Used
 
-- HTML
-- CSS
-- JavaScript
-- OpenWeather API
+| Layer      | Technology         |
+|------------|--------------------|
+| Frontend   | HTML, CSS, JavaScript |
+| API        | [OpenWeather API](https://openweathermap.org/api) |
+| Deployment | GitHub Pages       |
 
-##  Project Overview
+---
 
-This project was built to understand API integration and how to display real-time weather data in a web application. It focuses on frontend development and handling API responses.
+##  How to Use
 
-##  Note
+1. Visit the [live app](https://ashlybenny.github.io/Skycast/)
+2. Type a city name in the search box
+3. Press **Search** or hit **Enter**
+4. View current weather and 5-day forecast
 
-- This application currently works for cities in India only
-- Results depend on correct city name input
-- Weather data is fetched using OpenWeather API
+---
 
-## Usage
-https://ashlybenny.github.io/Skycast/
-1. Enter a city name  
-2. Click "Search" or press Enter  
-3. View current weather and forecast  
+##  Run Locally
 
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AshlyBenny/Skycast.git
+   cd Skycast
+   ```
 
+2. Get a free API key from [OpenWeather](https://openweathermap.org/api)
 
+3. Open `script.js` and replace the API key:
+   ```javascript
+   const API_KEY = "your_api_key_here";
+   ```
+
+4. Open `index.html` in your browser — done!
+
+---
+
+##  Project Structure
+
+```
+Skycast/
+├── index.html    # Main HTML structure
+├── style.css     # Styling and layout
+├── script.js     # API calls and logic
+└── README.md
+```
+
+---
+
+## Notes
+
+- Weather data is powered by the **OpenWeather API** (free tier)
+- API key is stored in `script.js` — do not commit real keys to public repos
+- Results depend on accurate city name input
+
+---
+
+##  Project Purpose
+
+Built to practice **API integration** and handling **real-time JSON data** in a frontend web app. Focuses on parsing API responses and presenting data in a user-friendly interface.
+
+---
+
+## Author
+
+**Ashly Benny** — [GitHub](https://github.com/AshlyBenny)
