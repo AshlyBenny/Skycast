@@ -2,7 +2,7 @@
 
 A clean and minimal weather app that fetches real-time weather data and forecasts using the OpenWeather API.
 
-> **[ Try it Live](https://ashlybenny.github.io/Skycast/)**
+ ** Try it Live - https://ashlybenny.github.io/Skycast/**
 
 ---
 
